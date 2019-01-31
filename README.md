@@ -73,7 +73,7 @@ _config/routes.rb_ that maps to a show action in the PostsController:
 get 'posts/:id', to: 'posts#show'
 ```
 
-Here you will notice something that's different from the static route. The
+Here you will notice something that 's different from the static route. The
 `/:id` tells the routing system that this route can receive a parameter and that
 the parameter will be passed to the controller's show action. With this route in
 place, let's run our tests again.
